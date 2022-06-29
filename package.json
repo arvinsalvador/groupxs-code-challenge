@@ -1,0 +1,26 @@
+{
+  "name": "groupxs-code-challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge Harry Potter Books",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf build/",
+    "build": "npm run clean && tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvinsalvador/groupxs-code-challenge.git"
+  },
+  "author": "Arvin Salvador",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvinsalvador/groupxs-code-challenge/issues"
+  },
+  "homepage": "https://github.com/arvinsalvador/groupxs-code-challenge#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4"
+  }
+}
